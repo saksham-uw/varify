@@ -9,13 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:varify.validateEnvFiles"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "varify.helloWorld",
-        "title": "Hello World"
+        "command": "varify.validateEnvFiles",
+        "title": "Varify: Validate Env Files"
       }
     ]
   },
